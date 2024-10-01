@@ -1,0 +1,25 @@
+# Ignorar la carpeta de dependencias de Composer
+/vendor/
+
+# Ignorar el archivo de bloqueo de Composer si no lo quieres versionar (opcional)
+# Aunque generalmente se recomienda versionar el composer.lock
+# /composer.lock
+
+# Ignorar archivos y carpetas del entorno del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de editores de texto
+.idea/
+.vscode/
+
+# Ignorar modulos de npm 
+/node_modules/
+/package-lock.json  # npm lock file (opcional)
+/yarn.lock          # Yarn lock file (opcional)
+
+# Ignorar configuraciones de entorno
+.env
+
+# Ignorar archivos de cache y de sesión (PHP)
+/cache/
