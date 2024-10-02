@@ -1,6 +1,5 @@
 # Ignorar la carpeta de dependencias de Composer
 /vendor/
-composer.lock 
 
 # Ignorar el archivo de bloqueo de Composer si no lo quieres versionar (opcional)
 # Aunque generalmente se recomienda versionar el composer.lock
